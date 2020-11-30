@@ -1,4 +1,4 @@
-const questionsDao = require('../daos/questions-dao.js')
+const questionsService = require('../daos/questions-dao.js')
 module.exports = function(app) {
 
     app.get('/api/quizzes/:qid/questions', (req, res) =>
